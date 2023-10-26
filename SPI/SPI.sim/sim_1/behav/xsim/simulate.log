@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ERROR: Index 4 out of bound 0 to 3
+Time: 40731 ns  Iteration: 0  Process: /SPI_Master_TB/line__68
+  File: C:/Users/enslo_l5het9y/Documents/ECE3610/SPI/SPI.srcs/sim_1/new/SPI_Master_TB.vhd
+
+HDL Line: C:/Users/enslo_l5het9y/Documents/ECE3610/SPI/SPI.srcs/sim_1/new/SPI_Master_TB.vhd:87

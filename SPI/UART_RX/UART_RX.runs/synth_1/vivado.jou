@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Thu Sep 21 16:29:02 2023
+# Process ID: 3312
+# Current directory: C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.runs/synth_1
+# Command line: vivado.exe -log UART.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART.tcl
+# Log file: C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.runs/synth_1/UART.vds
+# Journal file: C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.runs/synth_1\vivado.jou
+# Running On: DESKTOP-OEGNRTC, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8434 MB
+#-----------------------------------------------------------
+source UART.tcl -notrace

@@ -1,0 +1,13 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sim_1/new/UART_RX_TB.vhd,1695151432,vhdl,,,,uart_rx_tb,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sim_1/new/UART_TB.vhd,1695332055,vhdl,,,,uart_tb,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sources_1/new/Clk_div_pulse.vhd,1695151058,vhdl,,,,clk_div_pulse,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sources_1/new/Controller.vhd,1695154811,vhdl,,,,controller,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sources_1/new/DFlip.vhd,1694112924,vhdl,,,,dflip,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sources_1/new/Shift_8.vhd,1694118994,vhdl,,,,shift_8,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sources_1/new/UART.vhd,1695335224,vhdl,,,,uart,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sources_1/new/UART_RX.vhd,1694724838,vhdl,,,,uart_rx,,,,,,,,
+C:/Users/enslo_l5het9y/Documents/ECE3610/UART_RX/UART_RX/UART_RX.srcs/sources_1/new/UART_TX.vhd,1695332806,vhdl,,,,uart_tx,,,,,,,,
