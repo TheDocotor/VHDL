@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../SPI/UART_RX/UART_RX.srcs/sources_1/new/Clk_div_pulse.vhd" \
+"../../../../I2C.srcs/sources_1/new/Top_level.vhd" \
+"../../../../I2C.srcs/sources_1/new/controller.vhd" \
+"../../../../I2C.srcs/sim_1/new/Top_TB.vhd" \
+
+# Do not sort compile order
+nosort

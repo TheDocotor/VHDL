@@ -1,0 +1,19 @@
+
+*** Running vivado
+    with args -log Final_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Final_top.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1.1 (64-bit)
+  **** SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+  **** IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+  **** SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Final_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 445.555 ; gain = 163.547
+ERROR: [Vivado 12-172] File or Directory 'c:/Users/enslo_l5het9y/Documents/GitHub/VHDL/SPI/SPI.cache/ip/2023.1.1/e/ip.coe' does not exist
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  7 16:15:41 2023...

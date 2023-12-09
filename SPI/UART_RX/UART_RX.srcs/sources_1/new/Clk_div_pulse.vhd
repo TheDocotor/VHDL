@@ -33,29 +33,39 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Clk_div_pulse is
   Port (clk, rst : in std_logic;
-        clk_out : out std_logic  );
+        clk_out, data : out std_logic  );
 end Clk_div_pulse;
 
 architecture Behavioral of Clk_div_pulse is
+signal clk_out_s : std_logic;
 signal cnt : unsigned( 11 downto 0);
-constant full_cnt : unsigned( 11 downto 0) := TO_UNSIGNED(868, 12);
+constant full_cnt : unsigned( 11 downto 0) := TO_UNSIGNED(1000, 12);
 constant zero : unsigned(11 downto 0) := "000000000000";
 
 begin
 process(clk,rst)
 begin
-    clk_out <= '0';
-    if rst = '1' then
-       cnt <= full_cnt/2-1;
-       clk_out <= '0';
+    if rst = '0' then
+       cnt <= full_cnt;
+       clk_out_s <= '1';
     elsif rising_edge(clk) then
-        clk_out <= '0';
-        if cnt = zero then 
-            clk_out <= '1';
-            cnt <= full_cnt-1;
+        if cnt > 500 then
+            clk_out_s <= '0';
+            cnt <= cnt -1;
+        elsif cnt <= 500 and cnt > 0 then 
+            clk_out_s <= '1';
+            cnt <= cnt -1;
         else
-            cnt <= cnt - 1;
+            cnt <= Full_cnt;
+            clk_out_s <= '0';
         end if;     
      end if;
 end process;
+
+data <= '1' when cnt = 750 else
+        --'1' when cnt = 750 else
+        '0';
+
+clk_out <= clk_out_s;
+
 end Behavioral;
